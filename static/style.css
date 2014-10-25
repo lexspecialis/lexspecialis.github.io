@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300|Playfair+Display+SC);
 /* normalize.css v3.0.1 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -2299,9 +2300,25 @@ blockquote p {
   /* line 520, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
   .show-for-print {
     display: inherit !important; } }
-/* line 9, scss/style.scss */
+/* line 7, scss/style.scss */
+h1 {
+  font-family: 'Playfair Display SC', serif; }
+
+/* line 11, scss/style.scss */
+body, h2, h3 {
+  font-family: 'Open Sans', sans-serif; }
+
+/* line 15, scss/style.scss */
+h2, h3 {
+  font-weight: 300; }
+
+/* line 19, scss/style.scss */
+body {
+  font-weight: 400; }
+
+/* line 24, scss/style.scss */
 section img {
   width: 100%; }
-/* line 14, scss/style.scss */
+/* line 29, scss/style.scss */
 section#header #logo {
   width: inherit; }
