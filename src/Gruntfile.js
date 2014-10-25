@@ -5,6 +5,7 @@ module.exports = function (grunt) {
         sass: {
             dev: {
                 options: {
+                    lineNumbers: true,
                     loadPath: ['bower_components/foundation/scss']
                 },
                 files: {

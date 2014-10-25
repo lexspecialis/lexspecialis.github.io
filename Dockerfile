@@ -1,7 +1,7 @@
 FROM node:0.11.14-slim
 
 RUN apt-get install -y ruby1.9.1
-RUN gem install sass --version=3.4.6
+RUN gem install sass --version=3.2
 
 #RUN npm install -g bower@1.3.12
 #RUN npm install -g grunt-cli@0.1.13
