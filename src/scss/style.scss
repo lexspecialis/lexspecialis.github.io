@@ -2,6 +2,7 @@
 @import "foundation/settings";
 @import "foundation/components/grid";
 @import "foundation/components/type";
+@import "foundation/components/panels";
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300|Playfair+Display+SC);
 
 h1 {
@@ -28,6 +29,44 @@ section {
   &#header {
     #logo {
       width: inherit;
+    }
+  }
+}
+
+section#map {
+  position: relative;
+  height: 20rem;
+
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
+  .row {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+
+    .columns {
+      padding: 0;
+      margin: 0;
+    }
+  }
+
+  .panel {
+    background: white;
+  }
+
+  .contact-row {
+    display: block;
+    .icon {
+      display: inline-block;
+      width: 4rem;
+
+    }
+    .icon, .content {
+      display: inline-block;
     }
   }
 }
