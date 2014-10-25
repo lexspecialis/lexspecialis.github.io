@@ -2299,3 +2299,9 @@ blockquote p {
   /* line 520, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
   .show-for-print {
     display: inherit !important; } }
+/* line 9, scss/style.scss */
+section img {
+  width: 100%; }
+/* line 14, scss/style.scss */
+section#header #logo {
+  width: inherit; }
