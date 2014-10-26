@@ -2421,25 +2421,26 @@ section#map {
     width: 100%;
     height: 100%;
     border: 0; }
-  /* line 94, scss/style.scss */
-  section#map .row {
-    position: absolute;
-    top: 2rem;
-    left: 2rem; }
-    /* line 99, scss/style.scss */
-    section#map .row .columns {
-      padding: 0;
-      margin: 0; }
-  /* line 105, scss/style.scss */
+  @media only screen and (min-width: 40.063em) {
+    /* line 94, scss/style.scss */
+    section#map .row {
+      position: absolute;
+      top: 2rem;
+      left: 2rem; } }
+  /* line 103, scss/style.scss */
+  section#map .row .columns {
+    padding: 0;
+    margin: 0; }
+  /* line 109, scss/style.scss */
   section#map .panel {
     background: white; }
-  /* line 109, scss/style.scss */
+  /* line 113, scss/style.scss */
   section#map .contact-row {
     display: block; }
-    /* line 111, scss/style.scss */
+    /* line 115, scss/style.scss */
     section#map .contact-row .icon {
       display: inline-block;
       width: 4rem; }
-    /* line 116, scss/style.scss */
+    /* line 120, scss/style.scss */
     section#map .contact-row .icon, section#map .contact-row .content {
       display: inline-block; }

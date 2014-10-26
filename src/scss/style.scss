@@ -92,9 +92,13 @@ section#map {
   }
 
   .row {
-    position: absolute;
-    top: 2rem;
-    left: 2rem;
+    @media #{small-only} {
+    }
+    @media #{$medium-up} {
+      position: absolute;
+      top: 2rem;
+      left: 2rem;
+    }
 
     .columns {
       padding: 0;
