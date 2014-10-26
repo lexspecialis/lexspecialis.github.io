@@ -3771,53 +3771,58 @@ h3 {
 body {
   font-weight: 400; }
 
-/* line 66, scss/style.scss */
+/* line 67, scss/style.scss */
+.top-bar li.name img {
+  padding: 5px;
+  width: 45px; }
+
+/* line 75, scss/style.scss */
 section img {
   width: 100%; }
-/* line 70, scss/style.scss */
+/* line 79, scss/style.scss */
 section .content {
   margin-bottom: 3rem; }
   @media only screen and (min-width: 40.063em) {
-    /* line 70, scss/style.scss */
+    /* line 79, scss/style.scss */
     section .content {
       margin-bottom: 5rem; } }
 
-/* line 79, scss/style.scss */
-section#header .columns {
+/* line 88, scss/style.scss */
+section.header .columns {
   text-align: center; }
-/* line 83, scss/style.scss */
-section#header img {
+/* line 92, scss/style.scss */
+section.header img {
   width: 150px; }
 
-/* line 88, scss/style.scss */
-section#map {
+/* line 97, scss/style.scss */
+section.contact {
   position: relative;
   height: 20rem; }
-  /* line 92, scss/style.scss */
-  section#map iframe {
+  /* line 101, scss/style.scss */
+  section.contact iframe {
     width: 100%;
     height: 100%;
     border: 0; }
   @media only screen and (min-width: 40.063em) {
-    /* line 98, scss/style.scss */
-    section#map .row {
+    /* line 107, scss/style.scss */
+    section.contact .row {
       position: absolute;
       top: 2rem;
       left: 2rem; } }
-  /* line 107, scss/style.scss */
-  section#map .row .columns {
+  /* line 116, scss/style.scss */
+  section.contact .row .columns {
     padding: 0;
     margin: 0; }
-  /* line 113, scss/style.scss */
-  section#map .panel {
+  /* line 122, scss/style.scss */
+  section.contact .panel {
     background: white; }
-  /* line 117, scss/style.scss */
-  section#map .contact-row {
+  /* line 126, scss/style.scss */
+  section.contact .contact-row {
     display: block; }
-    /* line 119, scss/style.scss */
-    section#map .contact-row .icon {
+    /* line 128, scss/style.scss */
+    section.contact .contact-row .icon {
       display: inline-block;
       width: 4rem; }
-    /* line 124, scss/style.scss */
-    section#map .contact-row .icon, section#map .contact-row .content {
+    /* line 133, scss/style.scss */
+    section.contact .contact-row .icon, section.contact .contact-row .content {
       display: inline-block; }

@@ -9,36 +9,35 @@
 </head>
 <body>
 
-<nav class="top-bar" data-topbar role="navigation">
-    <ul class="title-area">
-        <li class="name">
-            <h1><a href="#">My Site</a></h1>
-        </li>
-        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-    </ul>
+<div class="fixed">
+    <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+            <li class="name">
+                <a href="#">
+                    <!--<button>-->
+                        <img src="static/img/logo-inverted.svg" alt="Lex Specialis logo with inverted colors"/>
+                    <!--</button>-->
+                </a>
 
-    <section class="top-bar-section">
-        <!-- Right Nav Section -->
-        <ul class="right">
-            <li class="active"><a href="#">Right Button Active</a></li>
-            <li class="has-dropdown">
-                <a href="#">Right Button Dropdown</a>
-                <ul class="dropdown">
-                    <li><a href="#">First link in dropdown</a></li>
-                    <li class="active"><a href="#">Active link in dropdown</a></li>
-                </ul>
+                <!--<h1><a href="#">My Site</a></h1>-->
             </li>
+            <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+            <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
         </ul>
 
-        <!-- Left Nav Section -->
-        <ul class="left">
-            <li><a href="#">Left Nav Button</a></li>
-        </ul>
-    </section>
-</nav>
+        <section class="top-bar-section">
+            <ul class="right">
+                <li><a href="#o-fundacji">O fundacji</a></li>
+                <li><a href="#nasza-misja">Nasza misja</a></li>
+                <li><a href="#rodzaje-spraw">Rodzaje spraw</a></li>
+                <li><a href="#dlaczego-my">Dlaczego my</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </section>
+    </nav>
+</div>
 
-<section id="header">
+<section class="header">
     <div class="row">
         <div class="small-12 columns">
             <img src="static/img/logo.svg" alt="Lex Specialis logo"/>
@@ -50,7 +49,7 @@
     </div>
 </section>
 
-<section id="about">
+<section id="o-fundacji">
     <img src="static/img/columns.jpg"/>
 
     <div class="row">
@@ -80,7 +79,7 @@
 </section>
 
 
-<section id="our-mission">
+<section id="nasza-misja">
     <img src="static/img/scale.jpg"/>
 
     <div class="row">
@@ -121,7 +120,7 @@
 </section>
 
 
-<section id="cases">
+<section id="rodzaje-spraw">
     <img src="static/img/hammer.jpg"/>
 
     <div class="row">
@@ -157,7 +156,7 @@
 </section>
 
 
-<section id="why-we">
+<section id="dlaczego-my">
     <img src="static/img/justice.jpg"/>
 
     <div class="row">
@@ -250,7 +249,7 @@
     </div>
 </section>
 
-<section id="map">
+<section class="contact" id="kontakt">
     <div class="row">
         <div class="medium-6 large-6 columns">
             <div class="panel">
@@ -289,6 +288,12 @@
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2444.32097913117!2d21.021003900000004!3d52.219386!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecce5d48d4a57%3A0xf881bc8f12f83558!2saleja+Wyzwolenia+9%2C+Warszawa%2C+Polska!5e0!3m2!1spl!2sus!4v1414237995594"></iframe>
 </section>
 
+<script src="src/bower_components/jquery/dist/jquery.js"></script>
+<script src="src/bower_components/foundation/js/foundation.js"></script>
+<script src="src/bower_components/foundation/js/foundation/foundation.topbar.js"></script>
+<script>
+    $(document).foundation();
+</script>
 
 </body>
 </html>

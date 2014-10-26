@@ -62,6 +62,15 @@ body {
   font-weight: 400;
 }
 
+.top-bar {
+  li.name {
+    img {
+      padding: 5px;
+      width: 45px;
+    }
+  }
+}
+
 section {
   img {
     width: 100%;
@@ -75,7 +84,7 @@ section {
   }
 }
 
-section#header {
+section.header {
   .columns {
     text-align: center;
   }
@@ -85,7 +94,7 @@ section#header {
   }
 }
 
-section#map {
+section.contact {
   position: relative;
   height: 20rem;
 
