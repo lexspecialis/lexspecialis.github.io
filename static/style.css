@@ -526,7 +526,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 62.5rem; }
+  max-width: 46.875rem; }
   /* line 172, /site/src/bower_components/foundation/scss/foundation/components/_global.scss */
   .row:before, .row:after {
     content: " ";
@@ -2358,57 +2358,64 @@ blockquote p {
   .panel.radius {
     border-radius: 3px; }
 
-/* line 8, scss/style.scss */
+/* line 15, scss/style.scss */
 h1 {
   font-family: 'Playfair Display SC', serif; }
 
-/* line 12, scss/style.scss */
+/* line 19, scss/style.scss */
 body, h2, h3 {
   font-family: 'Open Sans', sans-serif; }
 
-/* line 16, scss/style.scss */
+/* line 23, scss/style.scss */
 h2, h3 {
   font-weight: 300; }
 
-/* line 20, scss/style.scss */
+/* line 27, scss/style.scss */
 body {
   font-weight: 400; }
 
-/* line 25, scss/style.scss */
+/* line 32, scss/style.scss */
 section img {
   width: 100%; }
-/* line 30, scss/style.scss */
+/* line 37, scss/style.scss */
 section#header #logo {
   width: inherit; }
 
-/* line 36, scss/style.scss */
+/* line 44, scss/style.scss */
+section#header .columns {
+  text-align: center; }
+/* line 48, scss/style.scss */
+section#header img {
+  width: 150px; }
+
+/* line 53, scss/style.scss */
 section#map {
   position: relative;
   height: 20rem; }
-  /* line 40, scss/style.scss */
+  /* line 57, scss/style.scss */
   section#map iframe {
     width: 100%;
     height: 100%;
     border: 0; }
-  /* line 46, scss/style.scss */
+  /* line 63, scss/style.scss */
   section#map .row {
     position: absolute;
     top: 2rem;
     left: 2rem; }
-    /* line 51, scss/style.scss */
+    /* line 68, scss/style.scss */
     section#map .row .columns {
       padding: 0;
       margin: 0; }
-  /* line 57, scss/style.scss */
+  /* line 74, scss/style.scss */
   section#map .panel {
     background: white; }
-  /* line 61, scss/style.scss */
+  /* line 78, scss/style.scss */
   section#map .contact-row {
     display: block; }
-    /* line 63, scss/style.scss */
+    /* line 80, scss/style.scss */
     section#map .contact-row .icon {
       display: inline-block;
       width: 4rem; }
-    /* line 68, scss/style.scss */
+    /* line 85, scss/style.scss */
     section#map .contact-row .icon, section#map .contact-row .content {
       display: inline-block; }

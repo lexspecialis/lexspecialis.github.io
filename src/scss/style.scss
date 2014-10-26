@@ -1,9 +1,16 @@
 @import "normalize";
 @import "foundation/settings";
+
+$row-width: rem-calc(750);
+
 @import "foundation/components/grid";
 @import "foundation/components/type";
 @import "foundation/components/panels";
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300|Playfair+Display+SC);
+
+$ls-gray: #3E3F3F;
+$ls-lighter-gray: #515151;
+$ls-green: #499434;
 
 h1 {
   font-family: 'Playfair Display SC', serif;
@@ -30,6 +37,16 @@ section {
     #logo {
       width: inherit;
     }
+  }
+}
+
+section#header {
+  .columns {
+    text-align: center;
+  }
+
+  img {
+    width: 150px;
   }
 }
 
