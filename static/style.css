@@ -2362,83 +2362,84 @@ blockquote p {
 h1 {
   font-family: 'Playfair Display SC', serif;
   color: #3e3f3f;
-  margin: 1rem 0; }
+  margin: 1rem 0;
+  line-height: 1; }
 
-/* line 29, scss/style.scss */
+/* line 30, scss/style.scss */
 body, h2, h3 {
   font-family: 'Open Sans', sans-serif;
   color: #515151; }
 
-/* line 34, scss/style.scss */
+/* line 35, scss/style.scss */
 h2, h3 {
   font-weight: 300; }
 
-/* line 38, scss/style.scss */
+/* line 39, scss/style.scss */
 h2 {
   margin: 2rem 0 3rem 0; }
   @media only screen and (min-width: 40.063em) {
-    /* line 38, scss/style.scss */
+    /* line 39, scss/style.scss */
     h2 {
       margin: 3rem 0 5rem 0; } }
 
-/* line 45, scss/style.scss */
+/* line 46, scss/style.scss */
 h3 {
   margin: 3rem 0 2rem 0;
   color: #499434; }
 
-/* line 50, scss/style.scss */
+/* line 51, scss/style.scss */
 body {
   font-weight: 400; }
 
-/* line 55, scss/style.scss */
+/* line 56, scss/style.scss */
 section img {
   width: 100%; }
-/* line 60, scss/style.scss */
+/* line 61, scss/style.scss */
 section#header #logo {
   width: inherit; }
-/* line 65, scss/style.scss */
+/* line 66, scss/style.scss */
 section .content {
   margin-bottom: 3rem; }
   @media only screen and (min-width: 40.063em) {
-    /* line 65, scss/style.scss */
+    /* line 66, scss/style.scss */
     section .content {
       margin-bottom: 5rem; } }
 
-/* line 74, scss/style.scss */
+/* line 75, scss/style.scss */
 section#header .columns {
   text-align: center; }
-/* line 78, scss/style.scss */
+/* line 79, scss/style.scss */
 section#header img {
   width: 150px; }
 
-/* line 83, scss/style.scss */
+/* line 84, scss/style.scss */
 section#map {
   position: relative;
   height: 20rem; }
-  /* line 87, scss/style.scss */
+  /* line 88, scss/style.scss */
   section#map iframe {
     width: 100%;
     height: 100%;
     border: 0; }
-  /* line 93, scss/style.scss */
+  /* line 94, scss/style.scss */
   section#map .row {
     position: absolute;
     top: 2rem;
     left: 2rem; }
-    /* line 98, scss/style.scss */
+    /* line 99, scss/style.scss */
     section#map .row .columns {
       padding: 0;
       margin: 0; }
-  /* line 104, scss/style.scss */
+  /* line 105, scss/style.scss */
   section#map .panel {
     background: white; }
-  /* line 108, scss/style.scss */
+  /* line 109, scss/style.scss */
   section#map .contact-row {
     display: block; }
-    /* line 110, scss/style.scss */
+    /* line 111, scss/style.scss */
     section#map .contact-row .icon {
       display: inline-block;
       width: 4rem; }
-    /* line 115, scss/style.scss */
+    /* line 116, scss/style.scss */
     section#map .contact-row .icon, section#map .contact-row .content {
       display: inline-block; }
