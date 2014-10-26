@@ -1985,11 +1985,11 @@ h1 {
 
 /* line 270, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
 h2 {
-  font-size: 1.44444rem; }
+  font-size: 1.22222rem; }
 
 /* line 271, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
 h3 {
-  font-size: 2.38889rem; }
+  font-size: 2.33333rem; }
 
 /* line 272, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
 h4 {
@@ -2195,7 +2195,7 @@ blockquote p {
 
   /* line 457, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
   h2 {
-    font-size: 2rem; }
+    font-size: 1.77778rem; }
 
   /* line 458, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
   h3 {
@@ -2358,79 +2358,87 @@ blockquote p {
   .panel.radius {
     border-radius: 3px; }
 
-/* line 22, scss/style.scss */
+/* line 23, scss/style.scss */
 h1 {
   font-family: 'Playfair Display SC', serif;
   color: #3e3f3f;
   margin: 1rem 0; }
 
-/* line 28, scss/style.scss */
+/* line 29, scss/style.scss */
 body, h2, h3 {
   font-family: 'Open Sans', sans-serif;
   color: #515151; }
 
-/* line 33, scss/style.scss */
+/* line 34, scss/style.scss */
 h2, h3 {
   font-weight: 300; }
 
-/* line 37, scss/style.scss */
+/* line 38, scss/style.scss */
 h2 {
-  margin: 3rem 0 5rem 0; }
+  margin: 2rem 0 3rem 0; }
+  @media only screen and (min-width: 40.063em) {
+    /* line 38, scss/style.scss */
+    h2 {
+      margin: 3rem 0 5rem 0; } }
 
-/* line 41, scss/style.scss */
+/* line 45, scss/style.scss */
 h3 {
   margin: 3rem 0 2rem 0;
   color: #499434; }
 
-/* line 46, scss/style.scss */
+/* line 50, scss/style.scss */
 body {
   font-weight: 400; }
 
-/* line 51, scss/style.scss */
+/* line 55, scss/style.scss */
 section img {
   width: 100%; }
-/* line 56, scss/style.scss */
+/* line 60, scss/style.scss */
 section#header #logo {
   width: inherit; }
-/* line 61, scss/style.scss */
+/* line 65, scss/style.scss */
 section .content {
-  margin-bottom: 5rem; }
+  margin-bottom: 3rem; }
+  @media only screen and (min-width: 40.063em) {
+    /* line 65, scss/style.scss */
+    section .content {
+      margin-bottom: 5rem; } }
 
-/* line 67, scss/style.scss */
+/* line 74, scss/style.scss */
 section#header .columns {
   text-align: center; }
-/* line 71, scss/style.scss */
+/* line 78, scss/style.scss */
 section#header img {
   width: 150px; }
 
-/* line 76, scss/style.scss */
+/* line 83, scss/style.scss */
 section#map {
   position: relative;
   height: 20rem; }
-  /* line 80, scss/style.scss */
+  /* line 87, scss/style.scss */
   section#map iframe {
     width: 100%;
     height: 100%;
     border: 0; }
-  /* line 86, scss/style.scss */
+  /* line 93, scss/style.scss */
   section#map .row {
     position: absolute;
     top: 2rem;
     left: 2rem; }
-    /* line 91, scss/style.scss */
+    /* line 98, scss/style.scss */
     section#map .row .columns {
       padding: 0;
       margin: 0; }
-  /* line 97, scss/style.scss */
+  /* line 104, scss/style.scss */
   section#map .panel {
     background: white; }
-  /* line 101, scss/style.scss */
+  /* line 108, scss/style.scss */
   section#map .contact-row {
     display: block; }
-    /* line 103, scss/style.scss */
+    /* line 110, scss/style.scss */
     section#map .contact-row .icon {
       display: inline-block;
       width: 4rem; }
-    /* line 108, scss/style.scss */
+    /* line 115, scss/style.scss */
     section#map .contact-row .icon, section#map .contact-row .content {
       display: inline-block; }
