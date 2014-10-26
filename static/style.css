@@ -443,7 +443,7 @@ html, body {
 /* line 393, /site/src/bower_components/foundation/scss/foundation/components/_global.scss */
 html,
 body {
-  font-size: 100%; }
+  font-size: 18px; }
 
 /* line 396, /site/src/bower_components/foundation/scss/foundation/components/_global.scss */
 body {
@@ -526,7 +526,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 46.875rem; }
+  max-width: 38.88889rem; }
   /* line 172, /site/src/bower_components/foundation/scss/foundation/components/_global.scss */
   .row:before, .row:after {
     content: " ";
@@ -546,8 +546,8 @@ select {
   /* line 228, /site/src/bower_components/foundation/scss/foundation/components/_grid.scss */
   .row .row {
     width: auto;
-    margin-left: -0.9375rem;
-    margin-right: -0.9375rem;
+    margin-left: -0.83333rem;
+    margin-right: -0.83333rem;
     margin-top: 0;
     margin-bottom: 0;
     max-width: none; }
@@ -574,8 +574,8 @@ select {
 /* line 234, /site/src/bower_components/foundation/scss/foundation/components/_grid.scss */
 .column,
 .columns {
-  padding-left: 0.9375rem;
-  padding-right: 0.9375rem;
+  padding-left: 0.83333rem;
+  padding-right: 0.83333rem;
   width: 100%;
   float: left; }
 
@@ -736,8 +736,8 @@ select {
   .column,
   .columns {
     position: relative;
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
+    padding-left: 0.83333rem;
+    padding-right: 0.83333rem;
     float: left; }
 
   /* line 172, /site/src/bower_components/foundation/scss/foundation/components/_grid.scss */
@@ -1021,8 +1021,8 @@ select {
   .column,
   .columns {
     position: relative;
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
+    padding-left: 0.83333rem;
+    padding-right: 0.83333rem;
     float: left; }
 
   /* line 172, /site/src/bower_components/foundation/scss/foundation/components/_grid.scss */
@@ -1450,8 +1450,8 @@ select {
   .column,
   .columns {
     position: relative;
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
+    padding-left: 0.83333rem;
+    padding-right: 0.83333rem;
     float: left; }
 
   /* line 172, /site/src/bower_components/foundation/scss/foundation/components/_grid.scss */
@@ -1950,15 +1950,15 @@ p {
   font-weight: normal;
   font-size: 1rem;
   line-height: 1.6;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.11111rem;
   text-rendering: optimizeLegibility; }
   /* line 242, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
   p.lead {
-    font-size: 1.21875rem;
+    font-size: 1.19444rem;
     line-height: 1.6; }
   /* line 244, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
   p aside {
-    font-size: 0.875rem;
+    font-size: 0.77778rem;
     line-height: 1.35;
     font-style: italic; }
 
@@ -1981,23 +1981,23 @@ h1, h2, h3, h4, h5, h6 {
 
 /* line 269, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
 h1 {
-  font-size: 2.125rem; }
+  font-size: 2.11111rem; }
 
 /* line 270, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
 h2 {
-  font-size: 1.6875rem; }
+  font-size: 1.44444rem; }
 
 /* line 271, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
 h3 {
-  font-size: 1.375rem; }
+  font-size: 2.38889rem; }
 
 /* line 272, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
 h4 {
-  font-size: 1.125rem; }
+  font-size: 1.0rem; }
 
 /* line 273, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
 h5 {
-  font-size: 1.125rem; }
+  font-size: 1rem; }
 
 /* line 274, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
 h6 {
@@ -2016,7 +2016,7 @@ hr {
   border: solid #dddddd;
   border-width: 1px 0 0;
   clear: both;
-  margin: 1.25rem 0 1.1875rem;
+  margin: 1.11111rem 0 1.05556rem;
   height: 0; }
 
 /* Helpful Typography Defaults */
@@ -2046,7 +2046,7 @@ code {
   border-width: 1px;
   border-style: solid;
   border-color: #dfdfdf;
-  padding: 0.125rem 0.3125rem 0.0625rem; }
+  padding: 0.11111rem 0.27778rem 0.05556rem; }
 
 /* Lists */
 /* line 318, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
@@ -2055,7 +2055,7 @@ ol,
 dl {
   font-size: 1rem;
   line-height: 1.6;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.11111rem;
   list-style-position: outside;
   font-family: inherit; }
 
@@ -2068,7 +2068,7 @@ ul {
     /* line 332, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
     ul.no-bullet li ul,
     ul.no-bullet li ol {
-      margin-left: 1.25rem;
+      margin-left: 1.11111rem;
       margin-bottom: 0;
       list-style: none; }
 
@@ -2076,7 +2076,7 @@ ul {
 /* line 345, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
 ul li ul,
 ul li ol {
-  margin-left: 1.25rem;
+  margin-left: 1.11111rem;
   margin-bottom: 0; }
 /* line 353, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
 ul.square li ul, ul.circle li ul, ul.disc li ul {
@@ -2104,7 +2104,7 @@ ol {
   /* line 367, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
   ol li ul,
   ol li ol {
-    margin-left: 1.25rem;
+    margin-left: 1.11111rem;
     margin-bottom: 0; }
 
 /* Definition Lists */
@@ -2114,7 +2114,7 @@ dl dt {
   font-weight: bold; }
 /* line 380, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
 dl dd {
-  margin-bottom: 0.75rem; }
+  margin-bottom: 0.66667rem; }
 
 /* Abbreviations */
 /* line 385, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
@@ -2135,13 +2135,13 @@ abbr {
 /* Blockquotes */
 /* line 399, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote {
-  margin: 0 0 1.25rem;
-  padding: 0.5625rem 1.25rem 0 1.1875rem;
+  margin: 0 0 1.11111rem;
+  padding: 0.5rem 1.11111rem 0 1.05556rem;
   border-left: 1px solid #dddddd; }
   /* line 404, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
   blockquote cite {
     display: block;
-    font-size: 0.8125rem;
+    font-size: 0.72222rem;
     color: #555555; }
     /* line 408, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
     blockquote cite:before {
@@ -2161,9 +2161,9 @@ blockquote p {
 /* line 425, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
 .vcard {
   display: inline-block;
-  margin: 0 0 1.25rem 0;
+  margin: 0 0 1.11111rem 0;
   border: 1px solid #dddddd;
-  padding: 0.625rem 0.75rem; }
+  padding: 0.55556rem 0.66667rem; }
   /* line 431, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
   .vcard li {
     margin: 0;
@@ -2171,7 +2171,7 @@ blockquote p {
   /* line 435, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
   .vcard .fn {
     font-weight: bold;
-    font-size: 0.9375rem; }
+    font-size: 0.83333rem; }
 
 /* line 442, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
 .vevent .summary {
@@ -2182,7 +2182,7 @@ blockquote p {
   text-decoration: none;
   font-weight: bold;
   border: none;
-  padding: 0 0.0625rem; }
+  padding: 0 0.05556rem; }
 
 @media only screen and (min-width: 40.063em) {
   /* line 455, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
@@ -2191,23 +2191,23 @@ blockquote p {
 
   /* line 456, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
   h1 {
-    font-size: 2.75rem; }
+    font-size: 2.66667rem; }
 
   /* line 457, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
   h2 {
-    font-size: 2.3125rem; }
+    font-size: 2rem; }
 
   /* line 458, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
   h3 {
-    font-size: 1.6875rem; }
+    font-size: 2.66667rem; }
 
   /* line 459, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
   h4 {
-    font-size: 1.4375rem; }
+    font-size: 1.27778rem; }
 
   /* line 460, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
   h5 {
-    font-size: 1.125rem; }
+    font-size: 1rem; }
 
   /* line 461, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
   h6 {
@@ -2306,8 +2306,8 @@ blockquote p {
   border-style: solid;
   border-width: 1px;
   border-color: #d8d8d8;
-  margin-bottom: 1.25rem;
-  padding: 1.25rem;
+  margin-bottom: 1.11111rem;
+  padding: 1.11111rem;
   background: #f2f2f2;
   color: #333333; }
   /* line 54, /site/src/bower_components/foundation/scss/foundation/components/_panels.scss */
@@ -2322,7 +2322,7 @@ blockquote p {
   /* line 67, /site/src/bower_components/foundation/scss/foundation/components/_panels.scss */
   .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
     line-height: 1;
-    margin-bottom: 0.625rem; }
+    margin-bottom: 0.55556rem; }
     /* line 69, /site/src/bower_components/foundation/scss/foundation/components/_panels.scss */
     .panel h1.subheader, .panel h2.subheader, .panel h3.subheader, .panel h4.subheader, .panel h5.subheader, .panel h6.subheader {
       line-height: 1.4; }
@@ -2331,8 +2331,8 @@ blockquote p {
     border-style: solid;
     border-width: 1px;
     border-color: #b6edff;
-    margin-bottom: 1.25rem;
-    padding: 1.25rem;
+    margin-bottom: 1.11111rem;
+    padding: 1.11111rem;
     background: #ecfaff;
     color: #333333; }
     /* line 54, /site/src/bower_components/foundation/scss/foundation/components/_panels.scss */
@@ -2347,7 +2347,7 @@ blockquote p {
     /* line 67, /site/src/bower_components/foundation/scss/foundation/components/_panels.scss */
     .panel.callout h1, .panel.callout h2, .panel.callout h3, .panel.callout h4, .panel.callout h5, .panel.callout h6 {
       line-height: 1;
-      margin-bottom: 0.625rem; }
+      margin-bottom: 0.55556rem; }
       /* line 69, /site/src/bower_components/foundation/scss/foundation/components/_panels.scss */
       .panel.callout h1.subheader, .panel.callout h2.subheader, .panel.callout h3.subheader, .panel.callout h4.subheader, .panel.callout h5.subheader, .panel.callout h6.subheader {
         line-height: 1.4; }
@@ -2358,64 +2358,79 @@ blockquote p {
   .panel.radius {
     border-radius: 3px; }
 
-/* line 15, scss/style.scss */
+/* line 21, scss/style.scss */
 h1 {
-  font-family: 'Playfair Display SC', serif; }
+  font-family: 'Playfair Display SC', serif;
+  color: #3e3f3f;
+  margin: 1rem 0; }
 
-/* line 19, scss/style.scss */
+/* line 27, scss/style.scss */
 body, h2, h3 {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+  color: #515151; }
 
-/* line 23, scss/style.scss */
+/* line 32, scss/style.scss */
 h2, h3 {
   font-weight: 300; }
 
-/* line 27, scss/style.scss */
+/* line 36, scss/style.scss */
+h2 {
+  margin: 3rem 0 5rem 0; }
+
+/* line 40, scss/style.scss */
+h3 {
+  margin: 3rem 0 2rem 0;
+  color: #499434; }
+
+/* line 45, scss/style.scss */
 body {
   font-weight: 400; }
 
-/* line 32, scss/style.scss */
+/* line 50, scss/style.scss */
 section img {
   width: 100%; }
-/* line 37, scss/style.scss */
+/* line 55, scss/style.scss */
 section#header #logo {
   width: inherit; }
+/* line 60, scss/style.scss */
+section .content {
+  margin-bottom: 5rem; }
 
-/* line 44, scss/style.scss */
+/* line 66, scss/style.scss */
 section#header .columns {
   text-align: center; }
-/* line 48, scss/style.scss */
+/* line 70, scss/style.scss */
 section#header img {
   width: 150px; }
 
-/* line 53, scss/style.scss */
+/* line 75, scss/style.scss */
 section#map {
   position: relative;
   height: 20rem; }
-  /* line 57, scss/style.scss */
+  /* line 79, scss/style.scss */
   section#map iframe {
     width: 100%;
     height: 100%;
     border: 0; }
-  /* line 63, scss/style.scss */
+  /* line 85, scss/style.scss */
   section#map .row {
     position: absolute;
     top: 2rem;
     left: 2rem; }
-    /* line 68, scss/style.scss */
+    /* line 90, scss/style.scss */
     section#map .row .columns {
       padding: 0;
       margin: 0; }
-  /* line 74, scss/style.scss */
+  /* line 96, scss/style.scss */
   section#map .panel {
     background: white; }
-  /* line 78, scss/style.scss */
+  /* line 100, scss/style.scss */
   section#map .contact-row {
     display: block; }
-    /* line 80, scss/style.scss */
+    /* line 102, scss/style.scss */
     section#map .contact-row .icon {
       display: inline-block;
       width: 4rem; }
-    /* line 85, scss/style.scss */
+    /* line 107, scss/style.scss */
     section#map .contact-row .icon, section#map .contact-row .content {
       display: inline-block; }

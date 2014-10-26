@@ -1,7 +1,13 @@
 @import "normalize";
 @import "foundation/settings";
 
-$row-width: rem-calc(750);
+$base-font-size: 18px;
+$rem-base: $base-font-size;
+
+$row-width: rem-calc(700);
+$h1-font-size: rem-calc(48);
+$h2-font-size: rem-calc(36);
+$h3-font-size: rem-calc(48);
 
 @import "foundation/components/grid";
 @import "foundation/components/type";
@@ -14,14 +20,26 @@ $ls-green: #499434;
 
 h1 {
   font-family: 'Playfair Display SC', serif;
+  color: $ls-gray;
+  margin: 1rem 0;
 }
 
 body, h2, h3 {
   font-family: 'Open Sans', sans-serif;
+  color: $ls-lighter-gray;
 }
 
 h2, h3 {
   font-weight: 300;
+}
+
+h2 {
+  margin: 3rem 0 5rem 0;
+}
+
+h3 {
+  margin: 3rem 0 2rem 0;
+  color: $ls-green;
 }
 
 body {
@@ -37,6 +55,10 @@ section {
     #logo {
       width: inherit;
     }
+  }
+
+  .content {
+    margin-bottom: 5rem;
   }
 }
 
