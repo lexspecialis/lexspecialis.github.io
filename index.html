@@ -15,7 +15,7 @@
             <li class="name">
                 <a href="#">
                     <!--<button>-->
-                        <img src="static/img/logo-inverted.svg" alt="Lex Specialis logo with inverted colors"/>
+                    <img src="static/img/logo-inverted.svg" alt="Lex Specialis logo with inverted colors"/>
                     <!--</button>-->
                 </a>
 
@@ -35,6 +35,31 @@
             </ul>
         </section>
     </nav>
+</div>
+
+<div class="off-canvas-wrap" data-offcanvas>
+<div class="inner-wrap">
+<aside class="left-off-canvas-menu">
+    <ul class="off-canvas-list">
+        <li><label>Lex Specialis</label></li>
+        <li><a href="#o-fundacji">O fundacji</a></li>
+        <li><a href="#nasza-misja">Nasza misja</a></li>
+        <li><a href="#rodzaje-spraw">Rodzaje spraw</a></li>
+        <li><a href="#dlaczego-my">Dlaczego my</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+    </ul>
+</aside>
+
+<div class="fixed">
+<nav class="tab-bar show-for-small" data-topbar role="navigation">
+    <section class="left-small">
+        <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
+    </section>
+
+    <section class="middle tab-bar-section">
+        <h1 class="title">Foundation</h1>
+    </section>
+</nav>
 </div>
 
 <section class="header">
@@ -288,9 +313,32 @@
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2444.32097913117!2d21.021003900000004!3d52.219386!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecce5d48d4a57%3A0xf881bc8f12f83558!2saleja+Wyzwolenia+9%2C+Warszawa%2C+Polska!5e0!3m2!1spl!2sus!4v1414237995594"></iframe>
 </section>
 
+<a class="exit-off-canvas"></a>
+
+</div>
+</div>
+
+
 <script src="static/script.js"></script>
 <script>
-    $(document).foundation();
+    $(document).foundation({
+        offcanvas : {
+            // Sets method in which offcanvas opens.
+            // [ move | overlap_single | overlap ]
+            open_method: 'overlap',
+            // Should the menu close when a menu link is clicked?
+            // [ true | false ]
+            close_on_click : true
+        }
+    });
+
+    $(document)
+            .on('open.fndtn.offcanvas', '[data-offcanvas]', function() {
+                $('html').css('overflow', 'hidden');
+            })
+            .on('close.fndtn.offcanvas', '[data-offcanvas]', function() {
+                $('html').css('overflow', 'auto');
+            })
 </script>
 
 </body>

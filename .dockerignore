@@ -1,3 +1,6 @@
-.idea/
-.git/
-src/.sass-cache/
+.gitignore
+.git
+.idea
+src/.sass-cache
+src/bower_components
+src/node_modules
