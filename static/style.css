@@ -4727,10 +4727,14 @@ section.contact {
       display: inline-block; }
 
 /* line 141, scss/style.scss */
-.off-canvas-wrap, .inner-wrap, main {
+.off-canvas-wrap, .inner-wrap {
   min-height: 100%; }
 
 /* line 145, scss/style.scss */
 .off-canvas-wrap {
   height: 100%;
   overflow-y: auto; }
+
+/* line 150, scss/style.scss */
+.left-off-canvas-menu {
+  position: fixed; }

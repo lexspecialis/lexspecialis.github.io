@@ -138,7 +138,7 @@ section.contact {
   }
 }
 
-.off-canvas-wrap, .inner-wrap, main {
+.off-canvas-wrap, .inner-wrap {
   min-height: 100%;
 }
 
@@ -147,3 +147,6 @@ section.contact {
   overflow-y: auto;
 }
 
+.left-off-canvas-menu {
+  position: fixed;
+}
