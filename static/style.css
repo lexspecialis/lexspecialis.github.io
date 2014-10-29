@@ -451,7 +451,7 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -1965,7 +1965,7 @@ p {
 /* Default header styles */
 /* line 252, /site/src/bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
   color: #222222;
@@ -2305,7 +2305,7 @@ button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.11111rem;
@@ -2933,7 +2933,7 @@ select {
   border-color: #cccccc;
   padding: 0.44444rem;
   font-size: 0.77778rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: rgba(0, 0, 0, 0.75);
   line-height: normal;
   border-radius: 0;
@@ -3243,7 +3243,7 @@ meta.foundation-mq-topbar {
       color: white;
       padding: 12px 0 12px 0;
       padding-left: 15px;
-      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-family: "Open Sans", sans-serif;
       font-size: 0.72222rem;
       font-weight: normal;
       text-transform: none; }
@@ -3738,91 +3738,94 @@ meta.foundation-mq-topbar {
   .panel.radius {
     border-radius: 3px; }
 
-/* line 33, scss/style.scss */
+/* line 34, scss/style.scss */
 h1 {
   font-family: 'Playfair Display SC', serif;
   color: #3e3f3f;
   margin: 1rem 0;
   line-height: 1; }
 
-/* line 40, scss/style.scss */
+/* line 41, scss/style.scss */
 body, h2, h3 {
   font-family: 'Open Sans', sans-serif;
   color: #515151; }
 
-/* line 45, scss/style.scss */
+/* line 46, scss/style.scss */
 h2, h3 {
   font-weight: 300; }
 
-/* line 49, scss/style.scss */
+/* line 50, scss/style.scss */
 h2 {
   margin: 2rem 0 3rem 0; }
   @media only screen and (min-width: 40.063em) {
-    /* line 49, scss/style.scss */
+    /* line 50, scss/style.scss */
     h2 {
       margin: 3rem 0 5rem 0; } }
 
-/* line 56, scss/style.scss */
+/* line 57, scss/style.scss */
 h3 {
   margin: 3rem 0 2rem 0;
   color: #499434; }
 
-/* line 61, scss/style.scss */
+/* line 62, scss/style.scss */
 body {
   font-weight: 400; }
 
-/* line 67, scss/style.scss */
+/* line 68, scss/style.scss */
 .top-bar li.name img {
   padding: 5px;
   width: 45px; }
+/* line 74, scss/style.scss */
+.top-bar .top-bar-section ul {
+  text-align: center; }
 
-/* line 75, scss/style.scss */
+/* line 81, scss/style.scss */
 section img {
   width: 100%; }
-/* line 79, scss/style.scss */
+/* line 85, scss/style.scss */
 section .content {
   margin-bottom: 3rem; }
   @media only screen and (min-width: 40.063em) {
-    /* line 79, scss/style.scss */
+    /* line 85, scss/style.scss */
     section .content {
       margin-bottom: 5rem; } }
 
-/* line 88, scss/style.scss */
+/* line 94, scss/style.scss */
 section.header .columns {
   text-align: center; }
-/* line 92, scss/style.scss */
+/* line 98, scss/style.scss */
 section.header img {
   width: 150px; }
 
-/* line 97, scss/style.scss */
+/* line 103, scss/style.scss */
 section.contact {
   position: relative;
   height: 20rem; }
-  /* line 101, scss/style.scss */
+  /* line 107, scss/style.scss */
   section.contact iframe {
     width: 100%;
     height: 100%;
     border: 0; }
   @media only screen and (min-width: 40.063em) {
-    /* line 107, scss/style.scss */
+    /* line 113, scss/style.scss */
     section.contact .row {
       position: absolute;
       top: 2rem;
       left: 2rem; } }
-  /* line 116, scss/style.scss */
+  /* line 122, scss/style.scss */
   section.contact .row .columns {
     padding: 0;
     margin: 0; }
-  /* line 122, scss/style.scss */
+  /* line 128, scss/style.scss */
   section.contact .panel {
     background: white; }
-  /* line 126, scss/style.scss */
+  /* line 132, scss/style.scss */
   section.contact .contact-row {
     display: block; }
-    /* line 128, scss/style.scss */
+    /* line 134, scss/style.scss */
     section.contact .contact-row .icon {
       display: inline-block;
       width: 4rem; }
-    /* line 133, scss/style.scss */
+    /* line 139, scss/style.scss */
     section.contact .contact-row .icon, section.contact .contact-row .content {
       display: inline-block; }
