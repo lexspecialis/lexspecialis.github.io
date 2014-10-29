@@ -295,12 +295,12 @@
                 var target = $(this.hash);
                 target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
                 if (target.length) {
-                    var targetTop = target.offset().top - $('.top-bar').height();
-                    var speed = Math.abs($(window).scrollTop() - targetTop) * 0.5;
+                    var targetTop = target.offset().top - $('.top-bar .title-area').height();
+                    var speed = Math.abs($(window).scrollTop() - targetTop) * 0.3;
                     $('html,body').animate({
                         scrollTop: targetTop
                     }, speed);
-                    return false;
+                    return true;
                 }
             }
         });
