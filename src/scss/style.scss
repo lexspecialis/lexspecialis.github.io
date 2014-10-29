@@ -22,6 +22,7 @@ $h3-font-size: rem-calc(48);
 $h3-font-reduction: rem-calc(6) !default;
 
 @import "foundation/components/grid";
+@import "foundation/components/visibility";
 @import "foundation/components/type";
 
 $topbar-bg-color: $ls-gray;
@@ -29,7 +30,6 @@ $topbar-margin-bottom: 2rem;
 @import "foundation/components/top-bar";
 
 @import "foundation/components/panels";
-
 
 h1 {
   font-family: 'Playfair Display SC', serif;
@@ -76,7 +76,6 @@ body {
   }
 }
 
-
 section {
   img {
     width: 100%;
@@ -111,17 +110,18 @@ section.contact {
   }
 
   .row {
-    @media #{small-only} {
+    @media #{$small-only} {
+
     }
     @media #{$medium-up} {
       position: absolute;
-      top: 2rem;
-      left: 2rem;
-    }
+      top: 1rem;
+      left: 1rem;
 
-    .columns {
-      padding: 0;
-      margin: 0;
+      .columns {
+        padding: 0;
+        margin: 0;
+      }
     }
   }
 
@@ -129,15 +129,37 @@ section.contact {
     background: white;
   }
 
-  .contact-row {
-    display: block;
-    .icon {
-      display: inline-block;
-      width: 4rem;
+  h2 {
+    margin: 1rem 0;
+  }
 
+  .contact-row {
+    display: table;
+    margin-bottom: 1rem;
+
+    &:last-child {
+      margin-bottom: 0;
     }
-    .icon, .content {
-      display: inline-block;
+
+    .icon-wrapper {
+      display: table-cell;
+      height: 3rem;
+      width: 3rem;
+      vertical-align: middle;
+
+      .icon {
+        max-height: 2rem;
+        max-width: 2rem;
+      }
+    }
+    .contact {
+      display: table-cell;
+      height: 3rem;
+      vertical-align: middle;
+
+      span {
+        display: block;
+      }
     }
   }
 }
