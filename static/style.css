@@ -4245,29 +4245,32 @@ section.contact {
     background: white; }
   /* line 132, scss/style.scss */
   section.contact h2 {
-    margin: 1rem 0; }
+    margin: 1rem 0 2rem 0; }
   /* line 136, scss/style.scss */
+  section.contact h3 {
+    color: #499434; }
+  /* line 140, scss/style.scss */
   section.contact .contact-row {
-    display: table;
-    margin-bottom: 1rem; }
-    /* line 140, scss/style.scss */
+    display: table; }
+    /* line 143, scss/style.scss */
     section.contact .contact-row:last-child {
-      margin-bottom: 0; }
-    /* line 144, scss/style.scss */
+      margin-top: -8px; }
+    /* line 147, scss/style.scss */
     section.contact .contact-row .icon-wrapper {
       display: table-cell;
-      height: 3rem;
-      width: 3rem;
+      height: 2rem;
+      width: 2rem;
       vertical-align: middle; }
-      /* line 150, scss/style.scss */
+      /* line 153, scss/style.scss */
       section.contact .contact-row .icon-wrapper .icon {
-        max-height: 2rem;
-        max-width: 2rem; }
-    /* line 155, scss/style.scss */
+        max-height: 1.5rem;
+        max-width: 1.5rem; }
+    /* line 158, scss/style.scss */
     section.contact .contact-row .contact {
       display: table-cell;
       height: 3rem;
-      vertical-align: middle; }
-      /* line 160, scss/style.scss */
+      vertical-align: middle;
+      font-size: 0.7rem; }
+      /* line 164, scss/style.scss */
       section.contact .contact-row .contact span {
         display: block; }

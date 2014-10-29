@@ -130,32 +130,36 @@ section.contact {
   }
 
   h2 {
-    margin: 1rem 0;
+    margin: 1rem 0 2rem 0;
+  }
+
+  h3 {
+    color: $ls-green;
   }
 
   .contact-row {
     display: table;
-    margin-bottom: 1rem;
 
     &:last-child {
-      margin-bottom: 0;
+      margin-top: -8px;
     }
 
     .icon-wrapper {
       display: table-cell;
-      height: 3rem;
-      width: 3rem;
+      height: 2rem;
+      width: 2rem;
       vertical-align: middle;
 
       .icon {
-        max-height: 2rem;
-        max-width: 2rem;
+        max-height: 1.5rem;
+        max-width: 1.5rem;
       }
     }
     .contact {
       display: table-cell;
       height: 3rem;
       vertical-align: middle;
+      font-size: 0.7rem;
 
       span {
         display: block;
