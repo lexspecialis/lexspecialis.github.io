@@ -147,7 +147,12 @@ section.contact {
     .icon-wrapper {
       display: table-cell;
       height: 2rem;
-      width: 2rem;
+      @media #{$small-only} {
+        width: 2rem;
+      }
+      @media #{$medium-up} {
+        width: 3rem;
+      }
       vertical-align: middle;
 
       .icon {
@@ -159,8 +164,12 @@ section.contact {
       display: table-cell;
       height: 3rem;
       vertical-align: middle;
-      font-size: 0.7rem;
-
+      @media #{$small-only} {
+        font-size: 0.7rem;
+      }
+      @media #{$medium-up} {
+        font-size: 1rem;
+      }
       span {
         display: block;
       }
