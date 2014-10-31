@@ -363,7 +363,11 @@
         var mapOptions = {
             zoom: 16,
             center: new google.maps.LatLng(52.219766, 21.021036),
-            disableDefaultUI: true
+            disableDefaultUI: true,
+            draggable: false,
+            zoomControl: false,
+            scrollwheel: false,
+            disableDoubleClickZoom: true
         };
         map = new google.maps.Map(document.getElementById('map'), mapOptions);
     }
