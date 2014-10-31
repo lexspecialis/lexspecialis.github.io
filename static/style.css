@@ -3496,7 +3496,7 @@ meta.foundation-mq-topbar {
 /* line 114, /site/src/bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .contain-to-grid {
   width: 100%;
-  background: #3e3f3f; }
+  background: #515151; }
   /* line 118, /site/src/bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .contain-to-grid .top-bar {
     margin-bottom: 2rem; }
@@ -3530,7 +3530,7 @@ meta.foundation-mq-topbar {
   height: 45px;
   line-height: 45px;
   position: relative;
-  background: #3e3f3f;
+  background: #515151;
   margin-bottom: 2rem; }
   /* line 157, /site/src/bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar ul {
@@ -3628,7 +3628,7 @@ meta.foundation-mq-topbar {
     background: transparent; }
     /* line 265, /site/src/bower_components/foundation/scss/foundation/components/_top-bar.scss */
     .top-bar.expanded .title-area {
-      background: #3e3f3f; }
+      background: #515151; }
     /* line 268, /site/src/bower_components/foundation/scss/foundation/components/_top-bar.scss */
     .top-bar.expanded .toggle-topbar a {
       color: #888888; }
@@ -3653,7 +3653,7 @@ meta.foundation-mq-topbar {
   /* line 298, /site/src/bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .divider,
   .top-bar-section [role="separator"] {
-    border-top: solid 1px #1f2020;
+    border-top: solid 1px #292929;
     clear: both;
     height: 1px;
     width: 100%; }
@@ -3894,7 +3894,7 @@ meta.foundation-mq-topbar {
 @media only screen and (min-width: 710px) {
   /* line 448, /site/src/bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar {
-    background: #3e3f3f;
+    background: #515151;
     overflow: visible; }
     /* line 172, /site/src/bower_components/foundation/scss/foundation/components/_global.scss */
     .top-bar:before, .top-bar:after {
@@ -3921,7 +3921,7 @@ meta.foundation-mq-topbar {
       top: 7px; }
     /* line 466, /site/src/bower_components/foundation/scss/foundation/components/_top-bar.scss */
     .top-bar.expanded {
-      background: #3e3f3f; }
+      background: #515151; }
 
   /* line 469, /site/src/bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .contain-to-grid .top-bar {
@@ -3953,7 +3953,7 @@ meta.foundation-mq-topbar {
     .top-bar-section li:not(.has-form) a:not(.button) {
       padding: 0 15px;
       line-height: 45px;
-      background: #3e3f3f; }
+      background: #515151; }
       /* line 505, /site/src/bower_components/foundation/scss/foundation/components/_top-bar.scss */
       .top-bar-section li:not(.has-form) a:not(.button):hover {
         background-color: #555555;
@@ -4053,13 +4053,13 @@ meta.foundation-mq-topbar {
     .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
       border-bottom: none;
       border-top: none;
-      border-right: solid 1px #575858;
+      border-right: solid 1px #686868;
       clear: none;
       height: 45px;
       width: 0; }
     /* line 627, /site/src/bower_components/foundation/scss/foundation/components/_top-bar.scss */
     .top-bar-section .has-form {
-      background: #3e3f3f;
+      background: #515151;
       padding: 0 15px;
       height: 45px; }
     /* line 635, /site/src/bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -4165,7 +4165,7 @@ meta.foundation-mq-topbar {
 /* line 35, scss/style.scss */
 h1 {
   font-family: 'Playfair Display SC', serif;
-  color: #3e3f3f;
+  color: #515151;
   margin: 1rem 0;
   line-height: 1; }
 

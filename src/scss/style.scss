@@ -24,7 +24,7 @@ $h3-font-reduction: rem-calc(6) !default;
 @import "foundation/components/visibility";
 @import "foundation/components/type";
 
-$topbar-bg-color: $ls-gray;
+$topbar-bg-color: $ls-lighter-gray;
 $topbar-margin-bottom: 2rem;
 $topbar-breakpoint: 710px;
 $topbar-media-query: "#{$screen} and (min-width:#{lower-bound($topbar-breakpoint)})";
@@ -34,7 +34,7 @@ $topbar-media-query: "#{$screen} and (min-width:#{lower-bound($topbar-breakpoint
 
 h1 {
   font-family: 'Playfair Display SC', serif;
-  color: $ls-gray;
+  color: $ls-lighter-gray;
   margin: 1rem 0;
   line-height: 1;
 }
