@@ -27,6 +27,8 @@ $h3-font-reduction: rem-calc(6) !default;
 
 $topbar-bg-color: $ls-gray;
 $topbar-margin-bottom: 2rem;
+$topbar-breakpoint: 710px;
+$topbar-media-query: "only screen and (min-width: #{$topbar-breakpoint})";
 @import "foundation/components/top-bar";
 
 @import "foundation/components/panels";

@@ -3489,8 +3489,8 @@ label.error {
 
 /* line 108, /site/src/bower_components/foundation/scss/foundation/components/_top-bar.scss */
 meta.foundation-mq-topbar {
-  font-family: "/only screen and (min-width:40.063em)/";
-  width: 40.063em; }
+  font-family: "/only screen and (min-width: 710px)/";
+  width: 710px; }
 
 /* Wrapped around .top-bar to contain to grid width */
 /* line 114, /site/src/bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -3891,7 +3891,7 @@ meta.foundation-mq-topbar {
 .js-generated {
   display: block; }
 
-@media only screen and (min-width: 40.063em) {
+@media only screen and (min-width: 710px) {
   /* line 448, /site/src/bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar {
     background: #3e3f3f;
@@ -4162,129 +4162,129 @@ meta.foundation-mq-topbar {
   .panel.radius {
     border-radius: 3px; }
 
-/* line 34, scss/style.scss */
+/* line 36, scss/style.scss */
 h1 {
   font-family: 'Playfair Display SC', serif;
   color: #3e3f3f;
   margin: 1rem 0;
   line-height: 1; }
 
-/* line 41, scss/style.scss */
+/* line 43, scss/style.scss */
 body, h2, h3 {
   font-family: 'Open Sans', sans-serif;
   color: #515151; }
 
-/* line 46, scss/style.scss */
+/* line 48, scss/style.scss */
 h2, h3 {
   font-weight: 300; }
 
-/* line 50, scss/style.scss */
+/* line 52, scss/style.scss */
 h2 {
   margin: 2rem 0 3rem 0; }
   @media only screen and (min-width: 40.063em) {
-    /* line 50, scss/style.scss */
+    /* line 52, scss/style.scss */
     h2 {
       margin: 3rem 0 5rem 0; } }
 
-/* line 57, scss/style.scss */
+/* line 59, scss/style.scss */
 h3 {
   margin: 3rem 0 2rem 0;
   color: #499434; }
 
-/* line 62, scss/style.scss */
+/* line 64, scss/style.scss */
 body {
   font-weight: 400; }
 
-/* line 68, scss/style.scss */
+/* line 70, scss/style.scss */
 .top-bar li.name img {
   padding: 5px;
   width: 45px; }
-/* line 74, scss/style.scss */
+/* line 76, scss/style.scss */
 .top-bar .top-bar-section ul {
   text-align: center; }
 
-/* line 80, scss/style.scss */
+/* line 82, scss/style.scss */
 section img {
   width: 100%; }
-/* line 84, scss/style.scss */
+/* line 86, scss/style.scss */
 section .content {
   margin-bottom: 3rem; }
   @media only screen and (min-width: 40.063em) {
-    /* line 84, scss/style.scss */
+    /* line 86, scss/style.scss */
     section .content {
       margin-bottom: 5rem; } }
 
-/* line 93, scss/style.scss */
+/* line 95, scss/style.scss */
 section.header .columns {
   text-align: center; }
-/* line 97, scss/style.scss */
+/* line 99, scss/style.scss */
 section.header img {
   width: 150px; }
 
-/* line 102, scss/style.scss */
+/* line 104, scss/style.scss */
 section.contact {
   position: relative;
   height: 20rem; }
-  /* line 106, scss/style.scss */
+  /* line 108, scss/style.scss */
   section.contact iframe {
     width: 100%;
     height: 100%;
     border: 0; }
   @media only screen and (min-width: 40.063em) {
-    /* line 112, scss/style.scss */
+    /* line 114, scss/style.scss */
     section.contact .row {
       position: absolute;
       top: 1rem;
       left: 1rem; }
-      /* line 121, scss/style.scss */
+      /* line 123, scss/style.scss */
       section.contact .row .columns {
         padding: 0;
         margin: 0; } }
-  /* line 128, scss/style.scss */
+  /* line 130, scss/style.scss */
   section.contact .panel {
     background: white; }
-  /* line 132, scss/style.scss */
+  /* line 134, scss/style.scss */
   section.contact h2 {
     margin: 1rem 0 2rem 0; }
-  /* line 136, scss/style.scss */
+  /* line 138, scss/style.scss */
   section.contact h3 {
     color: #499434; }
-  /* line 140, scss/style.scss */
+  /* line 142, scss/style.scss */
   section.contact .contact-row {
     display: table; }
-    /* line 143, scss/style.scss */
+    /* line 145, scss/style.scss */
     section.contact .contact-row:last-child {
       margin-top: -8px; }
-    /* line 147, scss/style.scss */
+    /* line 149, scss/style.scss */
     section.contact .contact-row .icon-wrapper {
       display: table-cell;
       height: 2rem;
       vertical-align: middle; }
       @media only screen and (max-width: 40em) {
-        /* line 147, scss/style.scss */
+        /* line 149, scss/style.scss */
         section.contact .contact-row .icon-wrapper {
           width: 2rem; } }
       @media only screen and (min-width: 40.063em) {
-        /* line 147, scss/style.scss */
+        /* line 149, scss/style.scss */
         section.contact .contact-row .icon-wrapper {
           width: 3rem; } }
-      /* line 158, scss/style.scss */
+      /* line 160, scss/style.scss */
       section.contact .contact-row .icon-wrapper .icon {
         max-height: 1.5rem;
         max-width: 1.5rem; }
-    /* line 163, scss/style.scss */
+    /* line 165, scss/style.scss */
     section.contact .contact-row .contact {
       display: table-cell;
       height: 3rem;
       vertical-align: middle; }
       @media only screen and (max-width: 40em) {
-        /* line 163, scss/style.scss */
+        /* line 165, scss/style.scss */
         section.contact .contact-row .contact {
           font-size: 0.7rem; } }
       @media only screen and (min-width: 40.063em) {
-        /* line 163, scss/style.scss */
+        /* line 165, scss/style.scss */
         section.contact .contact-row .contact {
           font-size: 1rem; } }
-      /* line 173, scss/style.scss */
+      /* line 175, scss/style.scss */
       section.contact .contact-row .contact span {
         display: block; }
