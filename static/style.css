@@ -4224,7 +4224,7 @@ section.header img {
 /* line 103, scss/style.scss */
 section.contact {
   position: relative;
-  height: 20rem; }
+  height: 30rem; }
   /* line 107, scss/style.scss */
   section.contact iframe {
     width: 100%;
@@ -4234,57 +4234,58 @@ section.contact {
     /* line 113, scss/style.scss */
     section.contact .row {
       position: absolute;
-      top: 1rem;
-      left: 1rem; }
-      /* line 122, scss/style.scss */
+      top: 50%;
+      transform: translate(0, -50%);
+      left: 6rem; }
+      /* line 123, scss/style.scss */
       section.contact .row .columns {
         padding: 0;
         margin: 0; } }
-  /* line 129, scss/style.scss */
+  /* line 130, scss/style.scss */
   section.contact .panel {
     background: white; }
-  /* line 133, scss/style.scss */
+  /* line 134, scss/style.scss */
   section.contact h2 {
     margin: 1rem 0 2rem 0; }
-  /* line 137, scss/style.scss */
+  /* line 138, scss/style.scss */
   section.contact h3 {
     color: #499434; }
-  /* line 141, scss/style.scss */
+  /* line 142, scss/style.scss */
   section.contact .contact-row {
     display: table; }
-    /* line 144, scss/style.scss */
+    /* line 145, scss/style.scss */
     section.contact .contact-row:last-child {
       margin-top: -8px; }
-    /* line 148, scss/style.scss */
+    /* line 149, scss/style.scss */
     section.contact .contact-row .icon-wrapper {
       display: table-cell;
       height: 2rem;
       vertical-align: middle; }
       @media only screen and (max-width: 40em) {
-        /* line 148, scss/style.scss */
+        /* line 149, scss/style.scss */
         section.contact .contact-row .icon-wrapper {
           width: 2rem; } }
       @media only screen and (min-width: 40.063em) {
-        /* line 148, scss/style.scss */
+        /* line 149, scss/style.scss */
         section.contact .contact-row .icon-wrapper {
           width: 3rem; } }
-      /* line 159, scss/style.scss */
+      /* line 160, scss/style.scss */
       section.contact .contact-row .icon-wrapper .icon {
         max-height: 1.5rem;
         max-width: 1.5rem; }
-    /* line 164, scss/style.scss */
+    /* line 165, scss/style.scss */
     section.contact .contact-row .contact {
       display: table-cell;
       height: 3rem;
       vertical-align: middle; }
       @media only screen and (max-width: 40em) {
-        /* line 164, scss/style.scss */
+        /* line 165, scss/style.scss */
         section.contact .contact-row .contact {
           font-size: 0.7rem; } }
       @media only screen and (min-width: 40.063em) {
-        /* line 164, scss/style.scss */
+        /* line 165, scss/style.scss */
         section.contact .contact-row .contact {
           font-size: 1rem; } }
-      /* line 174, scss/style.scss */
+      /* line 175, scss/style.scss */
       section.contact .contact-row .contact span {
         display: block; }

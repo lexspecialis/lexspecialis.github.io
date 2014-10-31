@@ -102,7 +102,7 @@ section.header {
 
 section.contact {
   position: relative;
-  height: 20rem;
+  height: 30rem;
 
   iframe {
     width: 100%;
@@ -116,8 +116,9 @@ section.contact {
     }
     @media #{$medium-up} {
       position: absolute;
-      top: 1rem;
-      left: 1rem;
+      top: 50%;
+      transform: translate(0,-50%);
+      left: 6rem;
 
       .columns {
         padding: 0;
