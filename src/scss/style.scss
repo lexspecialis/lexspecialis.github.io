@@ -30,6 +30,8 @@ $topbar-breakpoint: 710px;
 $topbar-media-query: "#{$screen} and (min-width:#{lower-bound($topbar-breakpoint)})";
 @import "foundation/components/top-bar";
 
+@import "foundation/components/accordion";
+
 @import "foundation/components/panels";
 
 h1 {
