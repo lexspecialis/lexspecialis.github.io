@@ -3489,7 +3489,7 @@ label.error {
 
 /* line 108, /site/src/bower_components/foundation/scss/foundation/components/_top-bar.scss */
 meta.foundation-mq-topbar {
-  font-family: "/only screen and (min-width: 710px)/";
+  font-family: "/only screen and (min-width:710px)/";
   width: 710px; }
 
 /* Wrapped around .top-bar to contain to grid width */
