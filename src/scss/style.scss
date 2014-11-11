@@ -30,6 +30,12 @@ $topbar-breakpoint: 710px;
 $topbar-media-query: "#{$screen} and (min-width:#{lower-bound($topbar-breakpoint)})";
 @import "foundation/components/top-bar";
 
+$accordion-navigation-padding: 0;
+$accordion-navigation-bg-color: white;
+$accordion-navigation-font-color: $primary-color;
+.accordion-navigation {
+  padding: 0.5rem 0 1rem 0;
+}
 @import "foundation/components/accordion";
 
 @import "foundation/components/panels";
@@ -84,7 +90,7 @@ section {
     width: 100%;
   }
 
-  .content {
+  .columns.content {
     margin-bottom: 3rem;
     @media #{$medium-up} {
       margin-bottom: 5rem;
