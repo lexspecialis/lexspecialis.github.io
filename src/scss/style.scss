@@ -142,6 +142,10 @@ section.contact {
 
   .panel {
     background: white;
+    @media #{$small-only} {
+      border: none;
+      padding: 0;
+    }
   }
 
   h2 {

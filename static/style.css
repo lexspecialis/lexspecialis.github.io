@@ -4292,48 +4292,53 @@ section.contact {
   /* line 143, scss/style.scss */
   section.contact .panel {
     background: white; }
-  /* line 147, scss/style.scss */
+    @media only screen and (max-width: 40em) {
+      /* line 143, scss/style.scss */
+      section.contact .panel {
+        border: none;
+        padding: 0; } }
+  /* line 151, scss/style.scss */
   section.contact h2 {
     margin: 1rem 0 2rem 0; }
-  /* line 151, scss/style.scss */
+  /* line 155, scss/style.scss */
   section.contact h3 {
     color: #499434; }
-  /* line 155, scss/style.scss */
+  /* line 159, scss/style.scss */
   section.contact .contact-row {
     display: table; }
-    /* line 158, scss/style.scss */
+    /* line 162, scss/style.scss */
     section.contact .contact-row:last-child {
       margin-top: -8px; }
-    /* line 162, scss/style.scss */
+    /* line 166, scss/style.scss */
     section.contact .contact-row .icon-wrapper {
       display: table-cell;
       height: 2rem;
       vertical-align: middle; }
       @media only screen and (max-width: 40em) {
-        /* line 162, scss/style.scss */
+        /* line 166, scss/style.scss */
         section.contact .contact-row .icon-wrapper {
           width: 2rem; } }
       @media only screen and (min-width: 40.063em) {
-        /* line 162, scss/style.scss */
+        /* line 166, scss/style.scss */
         section.contact .contact-row .icon-wrapper {
           width: 3rem; } }
-      /* line 173, scss/style.scss */
+      /* line 177, scss/style.scss */
       section.contact .contact-row .icon-wrapper .icon {
         max-height: 1.5rem;
         max-width: 1.5rem; }
-    /* line 178, scss/style.scss */
+    /* line 182, scss/style.scss */
     section.contact .contact-row .contact {
       display: table-cell;
       height: 3rem;
       vertical-align: middle; }
       @media only screen and (max-width: 40em) {
-        /* line 178, scss/style.scss */
+        /* line 182, scss/style.scss */
         section.contact .contact-row .contact {
           font-size: 0.7rem; } }
       @media only screen and (min-width: 40.063em) {
-        /* line 178, scss/style.scss */
+        /* line 182, scss/style.scss */
         section.contact .contact-row .contact {
           font-size: 1rem; } }
-      /* line 188, scss/style.scss */
+      /* line 192, scss/style.scss */
       section.contact .contact-row .contact span {
         display: block; }
