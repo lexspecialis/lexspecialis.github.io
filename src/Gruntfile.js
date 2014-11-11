@@ -20,7 +20,8 @@ module.exports = function (grunt) {
                     'bower_components/jquery/dist/jquery.js',
                     'bower_components/foundation/js/foundation.js',
                     'bower_components/foundation/js/foundation/foundation.topbar.js',
-                    'bower_components/foundation/js/foundation/foundation.accordion.js'
+                    'bower_components/foundation/js/foundation/foundation.accordion.js',
+                    'bower_components/foundation/js/foundation/foundation.interchange.js'
                 ],
                 dest: '../static/script.js'
             }
