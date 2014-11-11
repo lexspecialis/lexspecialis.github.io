@@ -4260,68 +4260,76 @@ section.header img {
 
 /* line 105, scss/style.scss */
 section.contact {
-  position: relative;
-  height: 30rem; }
-  /* line 109, scss/style.scss */
+  position: relative; }
+  @media only screen and (max-width: 40em) {
+    /* line 105, scss/style.scss */
+    section.contact {
+      height: auto; } }
+  @media only screen and (min-width: 40.063em) {
+    /* line 105, scss/style.scss */
+    section.contact {
+      height: 30rem; } }
+  /* line 114, scss/style.scss */
   section.contact #map {
+    display: none;
     width: 100%;
     height: 100%; }
   @media only screen and (min-width: 40.063em) {
-    /* line 114, scss/style.scss */
+    /* line 120, scss/style.scss */
     section.contact .row {
       position: absolute;
       top: 50%;
       transform: translate(0, -50%);
       left: 6rem; }
-      /* line 124, scss/style.scss */
+      /* line 130, scss/style.scss */
       section.contact .row .columns {
         padding: 0;
         margin: 0; } }
-  /* line 131, scss/style.scss */
+  /* line 137, scss/style.scss */
   section.contact .panel {
     background: white; }
-  /* line 135, scss/style.scss */
+  /* line 141, scss/style.scss */
   section.contact h2 {
     margin: 1rem 0 2rem 0; }
-  /* line 139, scss/style.scss */
+  /* line 145, scss/style.scss */
   section.contact h3 {
     color: #499434; }
-  /* line 143, scss/style.scss */
+  /* line 149, scss/style.scss */
   section.contact .contact-row {
     display: table; }
-    /* line 146, scss/style.scss */
+    /* line 152, scss/style.scss */
     section.contact .contact-row:last-child {
       margin-top: -8px; }
-    /* line 150, scss/style.scss */
+    /* line 156, scss/style.scss */
     section.contact .contact-row .icon-wrapper {
       display: table-cell;
       height: 2rem;
       vertical-align: middle; }
       @media only screen and (max-width: 40em) {
-        /* line 150, scss/style.scss */
+        /* line 156, scss/style.scss */
         section.contact .contact-row .icon-wrapper {
           width: 2rem; } }
       @media only screen and (min-width: 40.063em) {
-        /* line 150, scss/style.scss */
+        /* line 156, scss/style.scss */
         section.contact .contact-row .icon-wrapper {
           width: 3rem; } }
-      /* line 161, scss/style.scss */
+      /* line 167, scss/style.scss */
       section.contact .contact-row .icon-wrapper .icon {
         max-height: 1.5rem;
         max-width: 1.5rem; }
-    /* line 166, scss/style.scss */
+    /* line 172, scss/style.scss */
     section.contact .contact-row .contact {
       display: table-cell;
       height: 3rem;
       vertical-align: middle; }
       @media only screen and (max-width: 40em) {
-        /* line 166, scss/style.scss */
+        /* line 172, scss/style.scss */
         section.contact .contact-row .contact {
           font-size: 0.7rem; } }
       @media only screen and (min-width: 40.063em) {
-        /* line 166, scss/style.scss */
+        /* line 172, scss/style.scss */
         section.contact .contact-row .contact {
           font-size: 1rem; } }
-      /* line 176, scss/style.scss */
+      /* line 182, scss/style.scss */
       section.contact .contact-row .contact span {
         display: block; }

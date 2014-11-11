@@ -6,9 +6,6 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <link type="text/css" rel="stylesheet" href="static/style.css">
-
-    <!--TODO: MOVE IT TO ASYNC-->
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 </head>
 <body>
 
@@ -316,6 +313,10 @@
     </div>
 </section>
 
+<div id="media-query-breakpoints">
+    <div class="show-for-small-only" data-size="small"></div>
+    <div class="show-for-medium-up" data-size="medium-up"></div>
+</div>
 
 <script src="static/script.js"></script>
 <script>
@@ -338,11 +339,11 @@
     });
 </script>
 
+<!--TODO: MOVE IT TO ASYNC-->
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+
 <script>
     var map;
-
-
-
     function initialize() {
         var mapOptions = {
             zoom: 16,
@@ -379,9 +380,31 @@
                 animation: google.maps.Animation.DROP
             });
         }, 400);
+
+        $('#map').data('initialized', true);
     }
 
-    google.maps.event.addDomListener(window, 'load', initialize);
+    function showMapIfNeeded() {
+        if (currentScreenSize() !== 'small') {
+            var map = $('#map');
+            map.show();
+            if (!map.data('initialized')) {
+                google.maps.event.addDomListener(window, 'load', initialize);
+                initialize();
+            }
+        } else {
+            $('#map').hide();
+        }
+    }
+
+    function currentScreenSize() {
+        return $('#media-query-breakpoints').find('div:visible').first().data('size');
+    }
+
+    $(window).resize(function() {
+        showMapIfNeeded();
+    });
+    showMapIfNeeded();
 
 
 </script>

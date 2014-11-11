@@ -104,9 +104,15 @@ section.header {
 
 section.contact {
   position: relative;
-  height: 30rem;
+  @media #{$small-only} {
+    height: auto;
+  }
+  @media #{$medium-up} {
+    height: 30rem;
+  }
 
   #map {
+    display: none;
     width: 100%;
     height: 100%;
   }
