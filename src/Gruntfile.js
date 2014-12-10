@@ -52,9 +52,9 @@ module.exports = function (grunt) {
         uglify: {
             dist: {
                 files: {
-                    '../static/header.js': ['../static/header.js'],
-                    '../static/vendors.js': ['../static/vendors.js'],
-                    '../static/content.js': ['../static/content.js']
+                    //'../static/header.js': ['../static/header.js'],
+                    //'../static/vendors.js': ['../static/vendors.js'],
+                    //'../static/content.js': ['../static/content.js']
                 }
             }
         },
