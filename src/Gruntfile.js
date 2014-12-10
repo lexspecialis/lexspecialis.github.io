@@ -23,7 +23,14 @@ module.exports = function (grunt) {
         },
 
         concat: {
-            dist: {
+            header: {
+                src: [
+                    'bower_components/modernizr/modernizr.js',
+                    'bower_components/yepnope/dist/yepnope-2.0.0.min.js'
+                ],
+                dest: '../static/header.js'
+            },
+            vendors: {
                 src: [
                     'bower_components/jquery/dist/jquery.min.js',
                     'bower_components/fastclick/lib/fastclick.js',
@@ -32,15 +39,22 @@ module.exports = function (grunt) {
                     'bower_components/foundation/js/foundation/foundation.accordion.js',
                     'bower_components/foundation/js/foundation/foundation.interchange.js'
                 ],
-                dest: '../static/script.js'
+                dest: '../static/vendors.js'
+            },
+            content: {
+                src: [
+                    '../src/js/content.js'
+                ],
+                dest: '../static/content.js'
             }
         },
 
         uglify: {
             dist: {
                 files: {
-                    '../static/modernizr.js': ['bower_components/modernizr/modernizr.js'],
-                    '../static/script.js': ['../static/script.js']
+                    '../static/header.js': ['../static/header.js'],
+                    '../static/vendors.js': ['../static/vendors.js'],
+                    '../static/content.js': ['../static/content.js']
                 }
             }
         },
