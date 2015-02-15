@@ -63,11 +63,6 @@ h2 {
   }
 }
 
-h3 {
-  margin: 3rem 0 2rem 0;
-  color: $ls-green;
-}
-
 body {
   font-weight: 400;
 }
@@ -96,9 +91,15 @@ section {
       margin-bottom: 5rem;
     }
   }
+
+  h1 {
+    font-family: 'Open Sans', sans-serif;
+    margin: 3rem 0 2rem 0;
+    color: $ls-green;
+  }
 }
 
-section.header {
+header {
   .columns {
     text-align: center;
   }
@@ -151,10 +152,6 @@ section.contact {
 
   h2 {
     margin: 1rem 0 2rem 0;
-  }
-
-  h3 {
-    color: $ls-green;
   }
 
   .contact-row {

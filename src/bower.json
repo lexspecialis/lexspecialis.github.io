@@ -1,7 +1,7 @@
 {
   "name": "Lex Specialis site",
   "dependencies": {
-    "foundation": "5.4.6",
+    "foundation": "5.5.1",
     "yepnope": "~2.0.0"
   }
 }
