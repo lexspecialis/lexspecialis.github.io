@@ -1,4 +1,4 @@
-yepnope.injectJs('static/vendors.js', function () {
+yepnope.injectJs('/wp-content/themes/lex-specialis/js/vendors.js', function () {
     $(document).foundation();
     $(function () {
         $('a[href*=#]:not([href=#])').click(function () {
@@ -90,5 +90,5 @@ yepnope.injectJs('static/vendors.js', function () {
     });
 });
 
-yepnope.injectJs('static/google-analytics.js');
+yepnope.injectJs('/wp-content/themes/lex-specialis/js/google-analytics.js');
 
