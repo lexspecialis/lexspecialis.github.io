@@ -20,6 +20,27 @@ yepnope.injectJs('static/vendors.js', function () {
         FastClick.attach(document.body);
     });
 
+    function setCookie(key, value) {
+        var expires = new Date();
+        expires.setTime(expires.getTime() + (1 * 24 * 60 * 60 * 1000));
+        document.cookie = key + '=' + value +';path=/'+ ';expires=' + expires.toUTCString();
+    }
+
+    function getCookie(key) {
+        var keyValue = document.cookie.match('(^|;) ?' + key + '=([^;]*)(;|$)');
+        return keyValue ? keyValue[2] : null;
+    }
+
+    $('.cookie span').on('click', function(event){
+        event.preventDefault();
+        setCookie('agreed', 'agreed');
+        $('.cookie').removeClass('visible');
+    });
+
+    if (!getCookie('agreed')) {
+        $('.cookie').addClass('visible');
+    }
+
     yepnope.injectJs('https://maps.googleapis.com/maps/api/js?v=3.exp&callback=initializeMap', function () {
         window.initializeMap = function () {
             var map;

@@ -1,5 +1,4 @@
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC);
-
 @import "opensans_regular_polish";
 @import "opensans_light_polish";
 
@@ -39,6 +38,7 @@ $accordion-navigation-font-color: $primary-color;
 .accordion-navigation {
   padding: 0.5rem 0 1rem 0;
 }
+
 @import "foundation/components/accordion";
 
 @import "foundation/components/panels";
@@ -130,8 +130,8 @@ section.contact {
     @media #{$medium-up} {
       position: absolute;
       top: 50%;
-      transform: translate(0,-50%);
-      -webkit-transform: translate(0,-50%);
+      transform: translate(0, -50%);
+      -webkit-transform: translate(0, -50%);
       left: 6rem;
 
       .columns {
@@ -190,5 +190,28 @@ section.contact {
         display: block;
       }
     }
+  }
+}
+
+.cookie {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+
+  background: white;
+  font-size: 0.7rem;
+  padding: 0.5rem;
+
+  visibility: hidden;
+
+  &.visible {
+    visibility: visible;
+  }
+
+  span {
+    display: inline-block;
+    float: right;
   }
 }
