@@ -1,4 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300|Playfair+Display+SC);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display+SC);
+@import "opensans_regular_polish";
+@import "opensans_light_polish";
 
 $ls-gray: #3E3F3F;
 $ls-lighter-gray: #515151;
@@ -7,7 +9,7 @@ $ls-menu-green: #B6D69A;
 
 @import "normalize";
 
-$body-font-family: 'Open Sans', sans-serif;
+$body-font-family: 'open_sansregular', sans-serif;
 @import "foundation/settings";
 
 $base-font-size: 18px;
@@ -36,6 +38,7 @@ $accordion-navigation-font-color: $primary-color;
 .accordion-navigation {
   padding: 0.5rem 0 1rem 0;
 }
+
 @import "foundation/components/accordion";
 
 @import "foundation/components/panels";
@@ -48,12 +51,12 @@ h1 {
 }
 
 body, h2, h3 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'open_sanslight', sans-serif;
   color: $ls-lighter-gray;
 }
 
 h2, h3 {
-  font-weight: 300;
+  font-family: 'open_sanslight', sans-serif;
 }
 
 h2 {
@@ -61,10 +64,6 @@ h2 {
   @media #{$medium-up} {
     margin: 3rem 0 5rem 0;
   }
-}
-
-body {
-  font-weight: 400;
 }
 
 .top-bar {
@@ -93,7 +92,7 @@ section {
   }
 
   h1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'open_sansregular', sans-serif;
     margin: 3rem 0 2rem 0;
     color: $ls-green;
   }
@@ -131,8 +130,8 @@ section.contact {
     @media #{$medium-up} {
       position: absolute;
       top: 50%;
-      transform: translate(0,-50%);
-      -webkit-transform: translate(0,-50%);
+      transform: translate(0, -50%);
+      -webkit-transform: translate(0, -50%);
       left: 6rem;
 
       .columns {
@@ -191,5 +190,28 @@ section.contact {
         display: block;
       }
     }
+  }
+}
+
+.cookie {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+
+  background: white;
+  font-size: 0.7rem;
+  padding: 0.5rem;
+
+  visibility: hidden;
+
+  &.visible {
+    visibility: visible;
+  }
+
+  span {
+    display: inline-block;
+    float: right;
   }
 }
